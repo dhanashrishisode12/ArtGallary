@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#DFD3F3"
+    tools:context=".Registration">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#B0E7EF"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="Registration Form"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <EditText
+            android:id="@+id/ename"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter Name" />
+        <EditText
+            android:id="@+id/mNo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="20dp"
+            android:inputType="number"
+            android:maxLength="10"
+            android:hint="Mobile Number"
+            />
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Address"
+            />
+        <EditText
+            android:id="@+id/emailId"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="20dp"
+            android:hint="EmailId"
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="20dp"
+            android:inputType="textPassword"
+            android:hint="password"
+            />
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#B0E7EF"
+            android:text="R e g i s t r a t i o n "
+            android:textColor="@color/black"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="380dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="Don't have account?Login here"
+            android:gravity="center"
+            android:layout_marginTop="450dp"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:id="@+id/login_txt"
+            />
+    </androidx.cardview.widget.CardView>
+    </ScrollView>
+</LinearLayout>

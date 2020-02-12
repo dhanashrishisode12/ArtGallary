@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1059470485357",
+    "firebase_url": "https://artgallary-54dcc.firebaseio.com",
+    "project_id": "artgallary-54dcc",
+    "storage_bucket": "artgallary-54dcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059470485357:android:8d9a836ff3af99eacd1c64",
+        "android_client_info": {
+          "package_name": "com.example.artgallary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059470485357-87qr977pnvcj2dqor07bgbrmh3jbcdjp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.artgallary",
+            "certificate_hash": "5157557a78b70551f85a601815f5aea6dc5ced3d"
+          }
+        },
+        {
+          "client_id": "1059470485357-58qp6ppchlble65cj741q4jsse88t52i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD6E7HONzMYvNBxdg81XyQHa2c3sF9XQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059470485357-58qp6ppchlble65cj741q4jsse88t52i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
